@@ -1,0 +1,235 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  width: 40px;
+  cursor: pointer;
+
+}
+.hero-background {
+  /* background: rgb(231,143,90);
+  background: radial-gradient(circle, rgba(231,143,90,0.5272233893557423) 6%, rgba(255,255,255,1) 93%);  */
+  /* background: rgb(231,143,90);
+  background: radial-gradient(circle, rgba(231,143,90,0.5272233893557423) 3%, rgba(255,255,255,1) 69%); */
+
+  /* background: rgb(255,180,135);
+  background: radial-gradient(circle, rgba(255,180,135,0.46279761904761907) 15%, rgba(255,255,255,0.7008928571428572) 85%); */
+  background: rgb(255,180,135);
+background: radial-gradient(circle, rgba(255,180,135,0.46279761904761907) 33%, rgba(255,255,255,0.5888480392156863) 70%);
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top:20px;
+}
+
+nav {
+  height:40px;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  
+}
+
+nav li {
+  padding-left: 3rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.about:hover {
+  color:#e47239;
+  cursor: pointer;
+}
+
+
+.hero-grid {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap:50px;
+  height: 100vh;
+  margin-top: 60px;
+}
+
+.intro { 
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 58px;
+  line-height: 120%;
+  margin-bottom: 24px;
+  margin-top:60px;
+
+}
+.intro-hero-section span{
+  color: #e47239;
+}
+
+.paragraph-hero-section {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+  line-height: 150%;
+  font-size: 18px;
+  color: #212121;
+  margin-top: 18px;
+  margin-bottom: 20px;
+
+}
+.paragraph-hero-section em{
+  color: #e47239;
+
+}
+
+
+.check-hero {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 28px;
+  text-decoration-line: underline;
+  /* border-bottom: solid 1.5px black; */
+  margin-top:60px;
+  cursor: pointer;
+}
+
+.portrait-hero-section {
+  display: flex;
+  width: 100%;
+  height: auto;
+  /* max-height: 100vh; */
+  justify-content: center;
+  align-items: flex-start;
+  margin-top:-32px;
+  padding-left:30px;
+  object-position: right;
+
+}
+.portrait {
+  max-width: 90%;
+  object-fit: contain;
+
+
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.title1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #1a1b1f;
+  padding-bottom: 7px;
+
+}
+
+.subtitle1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #7e7e7e;
+  margin-bottom: 10px;
+
+}
+
+.caption1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #535457;
+}
+
+.project1-grid {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-left: 50px;
+  align-items: center;
+  margin-top:50px;
+  cursor: pointer;
+  border:none;
+  transition: box-shadow 0.15s;
+  padding: 15px;
+
+}
+.project1-grid:hover{
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.50);
+
+
+}
+
+.page-sections {
+  font-family: 'Bitter', serif;
+  font-size: 40px;
+  font-weight: 300;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 123px;
+}
+
+
+
+footer {
+  height:40px;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right:50px;
+  margin-left:50px;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+footer ul{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  list-style: none;
+  display: flex;
+  color: #535457;
+  
+}
+
+footer li {
+  padding-left: 3rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #535457;
+
+}
+
+.footer-logo {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  list-style: none;
+  color: #535457;
+  padding-left: 20px;
+
+  
+}
+/* 
+<a href="#featured-projects" style="  color: black;"> */
+
